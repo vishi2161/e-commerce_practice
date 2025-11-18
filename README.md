@@ -83,5 +83,21 @@ A chatbot allows users to ask questions about:
 5. Deal Management
   - Update and customize the home page through the admin panel.
 
+---
 
+## Entity Relationship
+
+1. User
+    - O-to-M - Address
+    - M-to-M - Coupons
+    - O-to-M - Cart
+    - O-to-M - Order
+    - O-to-M - Review
+    - O-to-M - Transaction
+    - O-to-O - Wishlist
+2. Address
+   - M-to-O - User
+   - M-to-O - Order
+4. Cart
+5. CartItem
 
